@@ -9,7 +9,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <style>
+      .experience-table {
+        width: 100%;
+        border: 0;
+        border-collapse: separate;
+        border-spacing: 0 14px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .experience-logo-cell {
+        width: 25%;
+        padding: 12px 16px;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      .experience-logo-box {
+        width: 120px;
+        height: 60px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .experience-logo-box img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      .experience-text-cell {
+        width: 75%;
+        padding: 12px 8px;
+        vertical-align: middle;
+        line-height: 1.5;
+      }
+    </style>
   </head>
 
   <body>
@@ -211,13 +250,15 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table class="experience-table"><tbody>
 			
 			<tr>
-              <td align="center" style="padding:16px;width:25%;vertical-align:middle">
-                <img src="images/kling.png" alt="kling" style="width:100%;max-width:100%;object-fit: cover;">
+              <td class="experience-logo-cell">
+                <div class="experience-logo-box">
+                  <img src="images/kling.png" alt="kling">
+                </div>
               </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
+              <td class="experience-text-cell">
                 <strong>Research Intern, Kling Kuaishou, Beijing, China</strong>
                 <br>
                 2026.03 - present
@@ -228,10 +269,12 @@
             
            
             <tr>
-              <td align="center" style="padding:16px;width:25%;vertical-align:middle">
-                <img src="images/ByteDance.png" alt="Bytedance" style="width:100%;max-width:100%;object-fit: cover;">
+              <td class="experience-logo-cell">
+                <div class="experience-logo-box">
+                  <img src="images/ByteDance.png" alt="Bytedance">
+                </div>
               </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
+              <td class="experience-text-cell">
                 <strong>Research Intern, Bytedance Intelligent Creation Lab, Beijing, China</strong>
                 <br>
                 2025.04 - 2026.03
@@ -241,10 +284,12 @@
             </tr>
 
             <tr>
-              <td align="center" style="padding:16px;width:25%;vertical-align:middle">
-                <img src="images/oppo.png" alt="OPPO" style="width:100%;max-width:100%;object-fit: cover;">
+              <td class="experience-logo-cell">
+                <div class="experience-logo-box">
+                  <img src="images/oppo.png" alt="OPPO">
+                </div>
               </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
+              <td class="experience-text-cell">
                 <strong>Research Intern, OPPO, Shenzhen, China</strong>
                 <br>
                 2024.12 - 2025.04
@@ -254,10 +299,12 @@
             </tr>
 
             <tr>
-              <td align="center" style="padding:16px;width:25%;vertical-align:middle">
-                <img src="images/galaxea.jpg" alt="Galaxea AI" style="width:100%;max-width:100%;object-fit: cover;">
+              <td class="experience-logo-cell">
+                <div class="experience-logo-box">
+                  <img src="images/galaxea.jpg" alt="Galaxea AI">
+                </div>
               </td>
-              <td style="padding:8px;width:75%;vertical-align:middle">
+              <td class="experience-text-cell">
                 <strong>Research Intern, Galaxea AI, Beijing, China</strong>
                 <br>
                 2024.04 - 2024.08
